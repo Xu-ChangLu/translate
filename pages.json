@@ -1,0 +1,127 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				// 单个页面设置
+				"navigationStyle": "custom"
+				/* "app-plus": {
+					"titleNView": false
+				} */
+
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+					// "navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/web/web",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+		// ,{
+		// 	"path": "pages/translation-text/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "文本翻译",
+		// 		"enablePullDownRefresh": false,
+		// 		// 单个页面设置
+		// 		"navigationStyle": "custom"
+		// 		/* "app-plus": {
+		// 			"titleNView": false
+		// 		} */
+		// 	}
+
+		// }
+	    ,{
+            "path" : "pages/photograph/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "拍照翻译",
+                "enablePullDownRefresh": false
+				// 单个页面设置
+				// "navigationStyle": "custom"
+				/* "app-plus": {
+					"titleNView": false
+				} */
+            }
+            
+        }
+        ,{
+            "path" : "pages/result/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "翻译君",
+                "enablePullDownRefresh": false
+				// 单个页面设置
+				// "navigationStyle": "custom"
+				/* "app-plus": {
+					"titleNView": false
+				} */
+            }
+            
+        }
+        ,{
+            "path" : "pages/favorite/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/vip/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会员中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#845d32",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff"
+		// "list": [{
+		// 		"pagePath": "pages/index/index",
+		// 		"iconPath": "static/tabbar/member.png",
+		// 		"selectedIconPath": "static/tabbar/member_select.png",
+		// 		"text": "首页"
+		// 	},
+		// 	{
+		// 		"pagePath": "pages/my/index",
+		// 		"iconPath": "static/tabbar/home.png",
+		// 		"selectedIconPath": "static/tabbar/home-blue.png",
+		// 		"text": "我的"
+		// 	}
+		// ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
